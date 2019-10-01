@@ -7,7 +7,7 @@ width: 50%;
 }
 .image {
 display: block;
-width: 100%;
+width: 50%;
 height: auto;
 }
 .overlay {
@@ -20,7 +20,7 @@ height: 100%;
 width: 100%;
 opacity: 0;
 transition: .5s ease;
-background-color: #008CBA;
+background-color: rgb(186, 84, 0);
 }
 .container:hover .overlay {
 opacity: 1;
