@@ -16,7 +16,8 @@ session_start();
     </head>
     <body>
         <h1> Pick the Cat You Want To Love!</h1>
-        <div class = "products";
+        <div class = "products";>
+        <table>
   <tr>
     <th>Cats</th>
     <th>Picture</th>
