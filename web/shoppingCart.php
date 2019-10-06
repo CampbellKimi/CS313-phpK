@@ -24,7 +24,7 @@ session_start();
     <th>More Cats!!!</th>
   </tr>
   <tr>
-    <td>Orange Kitty</td>
+    <td><input type="checkbox" name="okitty" id= "orangeKitty" value=""> Orange Kitty</td>
     <td>Black Kitty</td>
     <td>Grey Kitty</td>
   </tr>
