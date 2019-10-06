@@ -17,17 +17,17 @@ session_start();
     <body>
         <h1> Pick the Cat You Want To Love!</h1>
         <div class = "products";>
-        <table style="width:100%">
+        <table style="width:75%">
   <tr>
     <th>Cats</th>
     <th>Picture</th>
   </tr>
   <tr>
-    <td><input type="checkbox" name="okitty" id= "orangeKitty" value=""> Orange Kitty</td>
+    <td width = ><input type="checkbox" name="okitty" id= "orangeKitty" value=""> Orange Kitty</td>
     <td><img src = "OrangeKitty.jpg" alt = "okitty" class = "image"></td>
   </tr>
   <tr>
-    <<td><input type="checkbox" name="gkitty" id= "greyKitty" value=""> Grey Kitty</td>
+    <td><input type="checkbox" name="gkitty" id= "greyKitty" value=""> Grey Kitty</td>
     <td><img src = "GreyKitty.jpg" alt = "gkitty" class = "image"></td>
   </tr>
   <tr>
