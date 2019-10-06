@@ -16,12 +16,15 @@ session_start();
     </head>
     <body>
         <h1> Pick the Cat You Want To Love!</h1>
-        div class = "products";
+        <div class = "products";>
         <table style="width:100%">
   <tr>
     <th>Cats</th>
+    <th>Photo</th>
     <th>Cats</th> 
+    <th>Photo</th>
     <th>More Cats!!!</th>
+    <th>Photo</th>
   </tr>
   <tr>
     <td><input type="checkbox" name="okitty" id= "orangeKitty" value=""> Orange Kitty</td>
