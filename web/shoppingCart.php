@@ -29,7 +29,7 @@ session_start();
   <tr>
     <td><input type="checkbox" name="okitty" id= "orangeKitty" value=""> Orange Kitty</td>
     <td><input type="checkbox" name="bkitty" id= "blackKitty" value=""> Black Kitty</td>
-    td><input type="checkbox" name="gkitty" id= "greyKitty" value=""> Grey Kitty</td>
+    <td><input type="checkbox" name="gkitty" id= "greyKitty" value=""> Grey Kitty</td>
   </tr>
   <tr>
     <td><img src = "OrangeKitty.jpg" alt = "okitty" class = "image"></td>
