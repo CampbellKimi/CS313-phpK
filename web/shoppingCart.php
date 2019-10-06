@@ -21,34 +21,28 @@ session_start();
   <tr>
     <th>Cats</th>
     <th>Picture</th>
-    <th>Cats</th> 
-    <th>Picture</th>
-    <th>More Cats!!!</th>
-    <th>Picture</th>
   </tr>
   <tr>
     <td><input type="checkbox" name="okitty" id= "orangeKitty" value=""> Orange Kitty</td>
-    <td><input type="checkbox" name="bkitty" id= "blackKitty" value=""> Black Kitty</td>
-    <td><input type="checkbox" name="gkitty" id= "greyKitty" value=""> Grey Kitty</td>
-  </tr>
-  <tr>
     <td><img src = "OrangeKitty.jpg" alt = "okitty" class = "image"></td>
-    <td>White Kitty</td>
-    <td>Hairless Kitty</td>
   </tr>
   <tr>
-    <td>Striped Kitty</td>
-    <td>White Kitty</td>
-    <td>Hairless Kitty</td>
+    <<td><input type="checkbox" name="gkitty" id= "greyKitty" value=""> Grey Kitty</td>
+    <td><img src = "GreyKitty.jpg" alt = "gkitty" class = "image"></td>
   </tr>
   <tr>
-    <td>Turkish Angora Kitty</td>
-    <td>Iddle Widdle Kitty</td>
-    <td>Yo Mamas Kitty</td>
+  <td><input type="checkbox" name="bkitty" id= "blackKitty" value=""> Black Kitty</td>
+  <td><img src = "BlackKitty.jpg" alt = "bkitty" class = "image"></td>
+  </tr>
+  <tr>
+  <td><input type="checkbox" name="mkitty" id= "MKitty" value=""> Yo Mamas Kitty</td>
+  <td><img src = "MommaKitty.jpg" alt = "mkitty" class = "image"></td>
   </tr>
 </table>
-    <button type = "button" onclick = "location.href='shoppingCartView.php'">
-        View My Kitty Shopping Cart
+<button type = "button" onclick = "location.href='shoppingCartView.php'">
+        Add To My Cart/br>
+<button type = "button" onclick = "location.href='shoppingCartView.php'">
+        Check out with my kitties!
     </button>
     </body>
     </html>
