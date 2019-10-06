@@ -11,38 +11,38 @@ session_start();
         <link rel = "stylesheet"
         type = "text/css"
         href = "shoppingCart.css" >
-
+        <form action = "shoppingCartView.php" method = "GET">
 
     </head>
     <body>
         <h1> Pick the Cat You Want To Love!</h1>
-        <div class = "products";>
         <table>
   <tr>
     <th>Cats</th>
     <th>Picture</th>
   </tr>
   <tr>
-    <td width = ><input type="checkbox" name="okitty" id= "orangeKitty" value=""> Orange Kitty</td>
+    <td width = ><input type="checkbox" name="okitty" id= "orangeKitty" value="<?php echo "".$_SESSION['oKitty'].""; ?>"> Orange Kitty</td>
     <td><img src = "OrangeKitty.jpg" alt = "okitty" class = "image"></td>
   </tr>
   <tr>
-    <td><input type="checkbox" name="gkitty" id= "greyKitty" value=""> Grey Kitty</td>
+    <td><input type="checkbox" name="gkitty" id= "greyKitty" value="<?php echo "".$_SESSION['gKitty'].""; ?>"> Grey Kitty</td>
     <td><img src = "GreyKitty.jpg" alt = "gkitty" class = "image"></td>
   </tr>
   <tr>
-  <td><input type="checkbox" name="bkitty" id= "blackKitty" value=""> Black Kitty</td>
+  <td><input type="checkbox" name="bkitty" id= "blackKitty" value="<?php echo "".$_SESSION['bKitty'].""; ?>"> Black Kitty</td>
   <td><img src = "BlackKitty.jpg" alt = "bkitty" class = "image"></td>
   </tr>
   <tr>
-  <td><input type="checkbox" name="mkitty" id= "MKitty" value=""> Yo Mamas Kitty</td>
+  <td><input type="checkbox" name="mkitty" id= "MKitty" value="<?php echo "".$_SESSION['mKitty'].""; ?>"> Yo Mamas Kitty</td>
   <td><img src = "MommaKitty.jpg" alt = "mkitty" class = "image"></td>
   </tr>
 </table>
-<button type = "button" onclick = "location.href='shoppingCartView.php'">
+<button type = "submit" onclick = "location.href='shoppingCartView.php'">
         Add To My Cart/br>
 <button type = "button" onclick = "location.href='shoppingCartView.php'">
         Check out with my kitties!
     </button>
     </body>
+</form>
     </html>
