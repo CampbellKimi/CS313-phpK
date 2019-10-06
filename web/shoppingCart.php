@@ -39,13 +39,19 @@ session_start();
   </tr>
 </table>
 <button type = "submit" onclick = "location.href='shoppingCartView.php'">
-        Add To My Cart/br>
-<button type = "button" onclick = "location.href='shoppingCartView.php'">
+        Add To My Cart <br/>
+<button type = "submit">
         Check out with my kitties!
     </button>
     <?php
-    foreach($_SESSION as $s){
-    echo $s;}
+if(isset($_POST['submit'])){//to run PHP script on submit
+if(!empty($_POST['check_list'])){
+// Loop to store and display values of individual checked checkbox.
+foreach($_POST['check_list'] as $selected){
+echo $selected."</br>";
+}
+}
+}
 ?>
     </body>
 </form>
