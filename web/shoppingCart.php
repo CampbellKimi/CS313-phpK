@@ -44,7 +44,8 @@ session_start();
         Check out with my kitties!
     </button>
     <?php
-print_r($_SESSION);
+    foreach($_SESSION as $s){
+    echo $s;}
 ?>
     </body>
 </form>
