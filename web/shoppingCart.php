@@ -20,16 +20,21 @@ session_start();
         <table style="width:100%">
   <tr>
     <th>Cats</th>
-    <th>Photo</th>
+    <th>Picture</th>
     <th>Cats</th> 
-    <th>Photo</th>
+    <th>Picture</th>
     <th>More Cats!!!</th>
-    <th>Photo</th>
+    <th>Picture</th>
   </tr>
   <tr>
     <td><input type="checkbox" name="okitty" id= "orangeKitty" value=""> Orange Kitty</td>
-    <td>Black Kitty</td>
-    <td>Grey Kitty</td>
+    <td><input type="checkbox" name="bkitty" id= "blackKitty" value=""> Black Kitty</td>
+    td><input type="checkbox" name="gkitty" id= "greyKitty" value=""> Grey Kitty</td>
+  </tr>
+  <tr>
+    <td><img src = "OrangeKitty.jpg" alt = "okitty" class = "image"></td>
+    <td>White Kitty</td>
+    <td>Hairless Kitty</td>
   </tr>
   <tr>
     <td>Striped Kitty</td>
