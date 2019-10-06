@@ -43,6 +43,9 @@ session_start();
 <button type = "button" onclick = "location.href='shoppingCartView.php'">
         Check out with my kitties!
     </button>
+    <?php
+print_r($_SESSION);
+?>
     </body>
 </form>
     </html>
