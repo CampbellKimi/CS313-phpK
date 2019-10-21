@@ -11,14 +11,14 @@ function get_db() {
 	$db = NULL;
 	try {
 		// default Heroku Postgres configuration URL
-        $dbUrl = getenv('DATABASE_URL');
-        echo $dbURL; exit;
+        $dbUrl = getenv('https://data.heroku.com/datastores/1e716ea9-f907-49b6-a4d5-e6efba9e9ffd#administration');
+        // echo $dbURL; exit;
 		// Get the various parts of the DB Connection from the URL
 		$dbopts = parse_url($dbUrl);
-		$dbHost = $dbopts["host"];
-		$dbPort = $dbopts["port"];
-		$dbUser = $dbopts["user"];
-		$dbPassword = $dbopts["pass"];
+		$dbHost = $dbopts["ec2-174-129-27-158.compute-1.amazonaws.com"];
+		$dbPort = $dbopts["5432"];
+		$dbUser = $dbopts["kfwjbcqzwzpacd"];
+		$dbPassword = $dbopts["14dc1474a3f84e2ac1484d56d7bf301093b255e029553e74f2ed5e1f1d7703a8"];
 		$dbName = ltrim($dbopts["path"],'/');
 		// Create the PDO connection
 		$db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
