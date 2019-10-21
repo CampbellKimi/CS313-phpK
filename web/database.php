@@ -36,3 +36,5 @@ function get_db() {
     var_dump($db);
 	return $db;
 }
+$this->get_db();
+exit;
