@@ -23,7 +23,7 @@ catch (PDOException $ex)
   echo 'Error!: ' . $ex->getMessage();
   die();
 } 
-echo 'test1'; exit;
+echo $dbUrl; exit;
 ?> 
 </body>
 </html>
